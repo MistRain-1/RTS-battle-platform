@@ -21,11 +21,8 @@ public class zmz_EyesRange : MonoBehaviour
     }
     void OnTriggerEnter(Collider collision)
     {
-        Debug.Log("1");
         if (collision.transform.tag == "enemy")
             IsTrriger = true;
-        Debug.Log("2");
-
     }
     void OnTriggerExit(Collider collision)
     {

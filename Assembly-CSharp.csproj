@@ -63,8 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ZMZ\ZMZScript\zmz_Bullet.cs" />
     <Compile Include="Assets\ZMZ\ZMZScript\zmz_EyesRange.cs" />
-    <Compile Include="Assets\ZMZ\ZMZScript\zmz_TankMove.cs" />
+    <Compile Include="Assets\ZMZ\ZMZScript\zmz_TankState.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

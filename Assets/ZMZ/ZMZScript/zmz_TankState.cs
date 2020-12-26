@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-public class zmz_TankMove : MonoBehaviour
+public class zmz_TankState : MonoBehaviour
 {
     // Start is called before the first frame update
     NavMeshAgent na;
+
     public enum State
     {
         None,
@@ -49,7 +50,6 @@ public class zmz_TankMove : MonoBehaviour
     }
     void StateChase()
     {
-
         rb.Sleep();
         Debug.Log("now_chase");
     }
