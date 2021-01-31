@@ -9,13 +9,12 @@ public class shell : MonoBehaviour
     public void OnTriggerEnter(Collider collider)
     {
         
-        GameObject.Instantiate(shellExplosion, transform.position, transform.rotation);
-        GameObject.Destroy(this.gameObject);
+         GameObject go = GameObject.Instantiate(shellExplosion, transform.position, transform.rotation);       
+         GameObject.Destroy(this.gameObject);
+         GameObject.Destroy(go);
 
-        if(collider.tag=="tank")
-        {
-            collider.SendMessage("TankDamage");
-        }
+
+       
         if(collider.tag=="Player")
         {
             collider.SendMessage("Damage");

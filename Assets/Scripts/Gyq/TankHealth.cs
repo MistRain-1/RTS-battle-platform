@@ -25,7 +25,7 @@ public class TankHealth : MonoBehaviour
    void Damage()
     {
         if (hp <= 0) return;
-        hp -= Random.Range(2, 5);
+        hp -= Random.Range(10, 20);
         if(hp>=70&&hp<=80)
         {
             isHurt = true;
