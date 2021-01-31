@@ -13,7 +13,6 @@ public class zmz_TankState : MonoBehaviour
         Patrol,
         Chase,
         Attack,
-
     }
     Rigidbody rb;
     State stat;
@@ -29,7 +28,7 @@ public class zmz_TankState : MonoBehaviour
     void Update()
     {
         if (zmz_EyesRange.IsTrriger == true)
-            stat = State.Attack;
+            stat = State.Attack;    
         switch (stat)
         {
             case State.Patrol:
