@@ -1,0 +1,379 @@
+fileFormatVersion: 2
+guid: e55428b83c6176b47820498c49456bbf
+timeCreated: 1485586238
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: barrel_
+    100002: barrel_ 1
+    100004: barrel_01
+    100006: barrel_02
+    100008: barrel_03
+    100010: barrel_mainPart
+    100012: barrel_mainPart 1
+    100014: barrel_mainPart 2
+    100016: body
+    100018: body_armor
+    100020: body_door_1
+    100022: body_door_2
+    100024: body_door_3
+    100026: decoration_wheel
+    100028: decoration_wheel 1
+    100030: L_bone_1
+    100032: L_bone_10
+    100034: L_bone_11
+    100036: L_bone_12
+    100038: L_bone_2
+    100040: L_bone_3
+    100042: L_bone_4
+    100044: L_bone_5
+    100046: L_bone_6
+    100048: L_bone_7
+    100050: L_bone_8
+    100052: L_bone_9
+    100054: L_DriveWheel
+    100056: L_Idler
+    100058: L_top_wheel_01
+    100060: L_top_wheel_02
+    100062: L_top_wheel_03
+    100064: L_top_wheel_04
+    100066: L_track
+    100068: L_wheel_01
+    100070: L_wheel_02
+    100072: L_wheel_03
+    100074: L_wheel_04
+    100076: L_wheel_05
+    100078: L_wheel_06
+    100080: L_wheel_07
+    100082: L_wheel_08
+    100084: Object001
+    100086: //RootNode
+    100088: R_bone_1
+    100090: R_bone_10
+    100092: R_bone_11
+    100094: R_bone_12
+    100096: R_bone_2
+    100098: R_bone_3
+    100100: R_bone_4
+    100102: R_bone_5
+    100104: R_bone_6
+    100106: R_bone_7
+    100108: R_bone_8
+    100110: R_bone_9
+    100112: R_DriveWheel
+    100114: R_Idler
+    100116: R_top_wheel_01
+    100118: R_top_wheel_02
+    100120: R_top_wheel_03
+    100122: R_top_wheel_04
+    100124: R_track
+    100126: R_wheel_01
+    100128: R_wheel_02
+    100130: R_wheel_03
+    100132: R_wheel_04
+    100134: R_wheel_05
+    100136: R_wheel_06
+    100138: R_wheel_07
+    100140: R_wheel_08
+    100142: turret
+    100144: turret_armor
+    100146: turret_type1
+    100148: turret_type1_base
+    100150: turret_type1_Door
+    100152: turret_type2
+    100154: turret_type2_base
+    100156: turret_type2_Rdoor
+    400000: barrel_
+    400002: barrel_ 1
+    400004: barrel_01
+    400006: barrel_02
+    400008: barrel_03
+    400010: barrel_mainPart
+    400012: barrel_mainPart 1
+    400014: barrel_mainPart 2
+    400016: body
+    400018: body_armor
+    400020: body_door_1
+    400022: body_door_2
+    400024: body_door_3
+    400026: decoration_wheel
+    400028: decoration_wheel 1
+    400030: L_bone_1
+    400032: L_bone_10
+    400034: L_bone_11
+    400036: L_bone_12
+    400038: L_bone_2
+    400040: L_bone_3
+    400042: L_bone_4
+    400044: L_bone_5
+    400046: L_bone_6
+    400048: L_bone_7
+    400050: L_bone_8
+    400052: L_bone_9
+    400054: L_DriveWheel
+    400056: L_Idler
+    400058: L_top_wheel_01
+    400060: L_top_wheel_02
+    400062: L_top_wheel_03
+    400064: L_top_wheel_04
+    400066: L_track
+    400068: L_wheel_01
+    400070: L_wheel_02
+    400072: L_wheel_03
+    400074: L_wheel_04
+    400076: L_wheel_05
+    400078: L_wheel_06
+    400080: L_wheel_07
+    400082: L_wheel_08
+    400084: Object001
+    400086: //RootNode
+    400088: R_bone_1
+    400090: R_bone_10
+    400092: R_bone_11
+    400094: R_bone_12
+    400096: R_bone_2
+    400098: R_bone_3
+    400100: R_bone_4
+    400102: R_bone_5
+    400104: R_bone_6
+    400106: R_bone_7
+    400108: R_bone_8
+    400110: R_bone_9
+    400112: R_DriveWheel
+    400114: R_Idler
+    400116: R_top_wheel_01
+    400118: R_top_wheel_02
+    400120: R_top_wheel_03
+    400122: R_top_wheel_04
+    400124: R_track
+    400126: R_wheel_01
+    400128: R_wheel_02
+    400130: R_wheel_03
+    400132: R_wheel_04
+    400134: R_wheel_05
+    400136: R_wheel_06
+    400138: R_wheel_07
+    400140: R_wheel_08
+    400142: turret
+    400144: turret_armor
+    400146: turret_type1
+    400148: turret_type1_base
+    400150: turret_type1_Door
+    400152: turret_type2
+    400154: turret_type2_base
+    400156: turret_type2_Rdoor
+    2300000: barrel_
+    2300002: barrel_ 1
+    2300004: barrel_03
+    2300006: barrel_mainPart
+    2300008: barrel_mainPart 1
+    2300010: barrel_mainPart 2
+    2300012: body
+    2300014: body_armor
+    2300016: body_door_1
+    2300018: body_door_2
+    2300020: body_door_3
+    2300022: decoration_wheel
+    2300024: decoration_wheel 1
+    2300026: L_DriveWheel
+    2300028: L_Idler
+    2300030: L_top_wheel_01
+    2300032: L_top_wheel_02
+    2300034: L_top_wheel_03
+    2300036: L_top_wheel_04
+    2300038: L_wheel_01
+    2300040: L_wheel_02
+    2300042: L_wheel_03
+    2300044: L_wheel_04
+    2300046: L_wheel_05
+    2300048: L_wheel_06
+    2300050: L_wheel_07
+    2300052: L_wheel_08
+    2300054: Object001
+    2300056: R_DriveWheel
+    2300058: R_Idler
+    2300060: R_top_wheel_01
+    2300062: R_top_wheel_02
+    2300064: R_top_wheel_03
+    2300066: R_top_wheel_04
+    2300068: R_wheel_01
+    2300070: R_wheel_02
+    2300072: R_wheel_03
+    2300074: R_wheel_04
+    2300076: R_wheel_05
+    2300078: R_wheel_06
+    2300080: R_wheel_07
+    2300082: R_wheel_08
+    2300084: turret
+    2300086: turret_armor
+    2300088: turret_type1_base
+    2300090: turret_type1_Door
+    2300092: turret_type2_base
+    2300094: turret_type2_Rdoor
+    3300000: barrel_
+    3300002: barrel_ 1
+    3300004: barrel_03
+    3300006: barrel_mainPart
+    3300008: barrel_mainPart 1
+    3300010: barrel_mainPart 2
+    3300012: body
+    3300014: body_armor
+    3300016: body_door_1
+    3300018: body_door_2
+    3300020: body_door_3
+    3300022: decoration_wheel
+    3300024: decoration_wheel 1
+    3300026: L_DriveWheel
+    3300028: L_Idler
+    3300030: L_top_wheel_01
+    3300032: L_top_wheel_02
+    3300034: L_top_wheel_03
+    3300036: L_top_wheel_04
+    3300038: L_wheel_01
+    3300040: L_wheel_02
+    3300042: L_wheel_03
+    3300044: L_wheel_04
+    3300046: L_wheel_05
+    3300048: L_wheel_06
+    3300050: L_wheel_07
+    3300052: L_wheel_08
+    3300054: Object001
+    3300056: R_DriveWheel
+    3300058: R_Idler
+    3300060: R_top_wheel_01
+    3300062: R_top_wheel_02
+    3300064: R_top_wheel_03
+    3300066: R_top_wheel_04
+    3300068: R_wheel_01
+    3300070: R_wheel_02
+    3300072: R_wheel_03
+    3300074: R_wheel_04
+    3300076: R_wheel_05
+    3300078: R_wheel_06
+    3300080: R_wheel_07
+    3300082: R_wheel_08
+    3300084: turret
+    3300086: turret_armor
+    3300088: turret_type1_base
+    3300090: turret_type1_Door
+    3300092: turret_type2_base
+    3300094: turret_type2_Rdoor
+    4300000: turret_armor
+    4300002: body
+    4300004: body_door_2
+    4300006: body_door_3
+    4300008: body_armor
+    4300010: body_door_1
+    4300012: turret
+    4300014: turret_type1_base
+    4300016: turret_type1_Door
+    4300018: turret_type2_Rdoor
+    4300020: turret_type2_base
+    4300022: barrel_03
+    4300024: barrel_mainPart
+    4300026: barrel_mainPart
+    4300028: barrel_
+    4300030: decoration_wheel
+    4300032: decoration_wheel
+    4300034: barrel_mainPart
+    4300036: barrel_
+    4300038: L_DriveWheel
+    4300040: L_wheel_01
+    4300042: L_wheel_02
+    4300044: L_wheel_03
+    4300046: L_wheel_04
+    4300048: L_wheel_05
+    4300050: L_wheel_06
+    4300052: L_wheel_07
+    4300054: L_wheel_08
+    4300056: L_Idler
+    4300058: L_top_wheel_04
+    4300060: L_top_wheel_03
+    4300062: L_top_wheel_02
+    4300064: L_top_wheel_01
+    4300066: R_DriveWheel
+    4300068: R_wheel_01
+    4300070: R_wheel_02
+    4300072: R_top_wheel_01
+    4300074: R_wheel_03
+    4300076: R_top_wheel_02
+    4300078: R_wheel_04
+    4300080: R_wheel_05
+    4300082: R_top_wheel_03
+    4300084: R_wheel_06
+    4300086: R_wheel_07
+    4300088: R_top_wheel_04
+    4300090: R_wheel_08
+    4300092: R_Idler
+    4300094: L_track
+    4300096: R_track
+    4300098: Object001
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: L_track
+    13700002: R_track
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
