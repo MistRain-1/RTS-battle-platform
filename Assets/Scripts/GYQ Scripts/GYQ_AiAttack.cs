@@ -1,5 +1,4 @@
-﻿
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using BehaviorDesigner.Runtime.Tasks;
@@ -7,17 +6,17 @@ using BehaviorDesigner.Runtime;
 using UnityEngine.AI;
 
 
-public class MySeek : Action
+public class GYQ_AiAttack : Action
 {
-
+   
     public SharedFloat speed;
-
+   
     public SharedFloat angularSpeed;
-
+   
     public SharedFloat arriveDistance = 0.1f;
-
+   
     public SharedTransform targetTransform;
-
+   
     public SharedVector3 targetPosition;
 
     // True if the target is a transform
@@ -25,7 +24,7 @@ public class MySeek : Action
     // A cache of the NavMeshAgent
     private NavMeshAgent navMeshAgent;
 
-    private TankHealth health;
+    private GYQ_TankAttack tankattack;
 
 
     public override void OnAwake()
@@ -39,7 +38,7 @@ public class MySeek : Action
         // the target is dynamic if the target transform is not null and has a valid
         dynamicTarget = (targetTransform != null && targetTransform.Value != null);
 
-        health = this.GetComponent<TankHealth>();
+        tankattack = this.GetComponent<TankAttack>();
 
         // set the speed, angular speed, and destination then enable the agent
         navMeshAgent.speed = speed.Value;
@@ -54,7 +53,7 @@ public class MySeek : Action
     {
         if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < arriveDistance.Value)
         {
-            health.isHurt = false;
+            tankattack.attack();
             return TaskStatus.Success;
         }
 
@@ -88,3 +87,4 @@ public class MySeek : Action
         arriveDistance = 0.1f;
     }
 }
+

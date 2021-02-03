@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowTarget : MonoBehaviour
+public class GYQ_FollowTarget : MonoBehaviour
 {
     public Transform player1;
     public Transform player2;

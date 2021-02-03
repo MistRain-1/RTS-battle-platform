@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TankHealth : MonoBehaviour
+public class GYQ_TankHealth : MonoBehaviour
 {
     public int hp = 100;
   

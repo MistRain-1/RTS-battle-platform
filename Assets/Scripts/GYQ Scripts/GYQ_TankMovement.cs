@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TankMovement : MonoBehaviour
+public class GYQ_TankMovement : MonoBehaviour
 {
     public float speed = 5;
     public float angularspeed = 30;

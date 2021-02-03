@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyForTime : MonoBehaviour
+public class GYQ_DestroyForTime : MonoBehaviour
 {
     public float time;
     // Start is called before the first frame update

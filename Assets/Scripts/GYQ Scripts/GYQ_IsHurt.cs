@@ -5,7 +5,7 @@ using BehaviorDesigner.Runtime.Tasks;
 using BehaviorDesigner.Runtime;
 using UnityEngine.AI;
 
-public class IsHurt:Conditional
+public class GYQ_IsHurt:Conditional
 {
     private TankHealth health;
     public override void OnAwake()

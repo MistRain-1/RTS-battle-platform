@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TankAttack : MonoBehaviour
+public class GYQ_TankAttack : MonoBehaviour
 {
     public GameObject shell;
     private Transform fireposition;

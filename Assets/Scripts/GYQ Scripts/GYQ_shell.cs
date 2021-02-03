@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class shell : MonoBehaviour
+public class GYQ_shell : MonoBehaviour
 {
     public GameObject shellExplosion;
    
